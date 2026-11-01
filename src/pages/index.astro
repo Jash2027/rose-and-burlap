@@ -1,0 +1,111 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { products } from '../data/products';
+---
+
+<BaseLayout title="Rose & Burlap — Accessible Romance, Woven by Hand">
+
+  <Header />
+
+  <main>
+
+    <section class="max-w-6xl mx-auto px-6 pt-16 pb-20 md:pt-24 md:pb-28">
+      <div class="max-w-3xl">
+        <p class="text-xs tracking-[0.3em] uppercase text-sage mb-6">Rose & Burlap</p>
+        <h1 class="font-serif text-5xl md:text-7xl leading-[1.05] text-ink">
+          A timeless sanctuary,<br class="hidden md:block" /> woven just for you.
+        </h1>
+        <p class="mt-8 text-base md:text-lg text-stone leading-relaxed max-w-xl">
+          Romantic florals, fine lines, and graceful details — handmade in small batches, meant to brighten your everyday.
+        </p>
+        <a href="#collection" class="inline-block mt-10 text-xs tracking-widest uppercase text-sage border-b border-sage/40 pb-1 hover:border-sage transition">
+          Explore the collection →
+        </a>
+      </div>
+    </section>
+
+    <section class="border-y border-stone/10 py-16 md:py-20">
+      <div class="max-w-4xl mx-auto px-6 text-center">
+        <p class="font-serif text-2xl md:text-3xl leading-relaxed text-ink/80 italic">
+          “This old friend is always eager to weave a touch of accessible romance into your life.”
+        </p>
+        <p class="mt-4 text-xs tracking-widest uppercase text-stone">— Rose & Burlap</p>
+      </div>
+    </section>
+
+    <section id="collection" class="max-w-6xl mx-auto px-6 py-20 md:py-28">
+      <div class="mb-10">
+        <p class="text-xs tracking-[0.25em] uppercase text-sage mb-3">The Collection</p>
+        <h2 class="font-serif text-3xl md:text-4xl text-ink">Small-batch, hand-finished</h2>
+      </div>
+      <div class="grid grid-cols-2 md:grid-cols-3 gap-x-6 gap-y-12">
+        {products.map((product) => (
+          <a href={`/products/${product.slug}`} class="group block">
+            <div class="aspect-[4/5] overflow-hidden bg-[#EDE7DE]">
+              <img
+                src={product.image}
+                alt={product.name}
+                class="w-full h-full object-cover group-hover:scale-[1.02] transition duration-500"
+                loading="lazy"
+              />
+            </div>
+            <div class="mt-4 space-y-1">
+              <h3 class="font-serif text-xl text-ink">{product.name}</h3>
+              <p class="text-sm text-stone">{product.tagline}</p>
+            </div>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <section id="story" class="max-w-6xl mx-auto px-6 pb-20 md:pb-28">
+      <div class="grid md:grid-cols-2 gap-10 md:gap-16 items-center">
+        <div class="aspect-[4/3] bg-[#E8E1D6] overflow-hidden">
+          <img
+            src="https://picsum.photos/seed/studio/1200/900"
+            alt="Inside the Rose & Burlap studio"
+            class="w-full h-full object-cover"
+            loading="lazy"
+          />
+        </div>
+        <div class="space-y-6">
+          <p class="text-xs tracking-[0.25em] uppercase text-sage">Our Story</p>
+          <h2 class="font-serif text-3xl md:text-4xl leading-snug text-ink">
+            Made slowly, with romantic florals and fine lines.
+          </h2>
+          <p class="text-sm md:text-base text-stone leading-relaxed">
+            Rose & Burlap began as a quiet practice — a way to soothe weariness with gentle, delicate patterns. Every piece still passes through our hands, from first sketch to final stitch.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="border-y border-stone/10">
+      <div class="max-w-6xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
+        <p class="text-xs tracking-widest uppercase text-stone">Hand-finished details</p>
+        <p class="text-xs tracking-widest uppercase text-stone">Small-batch craft</p>
+        <p class="text-xs tracking-widest uppercase text-stone">Personal replies within 48h</p>
+      </div>
+    </section>
+
+    <section id="contact" class="max-w-6xl mx-auto px-6 py-20 md:py-28 text-center">
+      <p class="text-xs tracking-[0.25em] uppercase text-sage mb-4">Get in touch</p>
+      <h2 class="font-serif text-3xl md:text-4xl text-ink mb-4">We reply to every enquiry personally.</h2>
+      <p class="text-sm text-stone max-w-md mx-auto leading-relaxed">
+        Usually within 48 hours. Tell us which piece caught your eye, or just say hello.
+      </p>
+      <a
+        href="mailto:hello@roseandburlap.com"
+        class="inline-block mt-8 text-xs tracking-widest uppercase text-sage border-b border-sage/40 pb-1 hover:border-sage transition"
+      >
+        hello@roseandburlap.com →
+      </a>
+    </section>
+
+  </main>
+
+  <Footer />
+
+</BaseLayout>

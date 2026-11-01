@@ -1,0 +1,28 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<BaseLayout title="Thank you — Rose & Burlap">
+  <Header />
+
+  <main class="max-w-3xl mx-auto px-6 py-24 md:py-32 text-center">
+    <p class="text-xs tracking-[0.25em] uppercase text-sage mb-4">Thank you</p>
+    <h1 class="font-serif text-4xl md:text-5xl leading-tight text-ink">
+      Your note is on its way.
+    </h1>
+    <p class="mt-6 text-sm md:text-base text-stone leading-relaxed max-w-md mx-auto">
+      We read every enquiry personally and usually reply within 48 hours.
+      In the meantime, feel free to browse the collection.
+    </p>
+    <a
+      href="/#collection"
+      class="inline-block mt-10 text-xs tracking-widest uppercase text-sage border-b border-sage/40 pb-1 hover:border-sage transition"
+    >
+      Back to the collection →
+    </a>
+  </main>
+
+  <Footer />
+</BaseLayout>

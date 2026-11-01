@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-linen: #F7F3EE;
+  --color-ink: #2B2520;
+  --color-sage: #7C8B6F;
+  --color-stone: #8C8279;
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Inter", "Helvetica Neue", Arial, sans-serif;
+}
+
+body {
+  background-color: var(--color-linen);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
