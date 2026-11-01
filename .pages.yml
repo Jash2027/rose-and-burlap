@@ -1,0 +1,35 @@
+media:
+  input: public/images
+  output: /images
+
+content:
+  - name: products
+    label: Products
+    type: file
+    path: src/data/products.json
+    fields:
+      - name: name
+        label: Product Name
+        type: string
+      - name: tagline
+        label: Short Tagline
+        type: string
+      - name: image
+        label: Product Image
+        type: image
+      - name: intro
+        label: Intro Text
+        type: text
+      - name: description
+        label: Description Paragraphs
+        type: string
+        list: true
+      - name: details
+        label: Details
+        type: string
+      - name: care
+        label: Care Instructions
+        type: string
+      - name: slug
+        label: URL Slug (e.g. product-one)
+        type: string
