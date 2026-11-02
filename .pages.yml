@@ -7,6 +7,7 @@ content:
     label: Products
     type: file
     path: src/data/products.json
+    list: true
     fields:
       - name: name
         label: Product Name
