@@ -28,7 +28,7 @@
   {
     "name": "Product Three",
     "tagline": "A quiet detail for everyday.",
-    "image": "/images/product3.png",
+    "image": "/images/product-3.png",
     "intro": "Understated, but never plain.",
     "description": [
       "Made in small batches, with an attention to the details you only notice up close.",
@@ -41,7 +41,7 @@
   {
     "name": "Product Four",
     "tagline": "Made to be lived with.",
-    "image": "/images/product4.png",
+    "image": "/images/product-4.png",
     "intro": "Warmth, in a form you can hold.",
     "description": [
       "A hand-finished piece with a soft, tactile surface and a timeless silhouette.",
@@ -54,7 +54,7 @@
   {
     "name": "Product Five",
     "tagline": "Warmth, woven by hand.",
-    "image": "/images/product5.png",
+    "image": "/images/product-5.png",
     "intro": "A small sanctuary, made by hand.",
     "description": [
       "Each one is finished slowly, with graceful details that reward a closer look.",
@@ -67,7 +67,7 @@
   {
     "name": "Product Six",
     "tagline": "Grace in the small things.",
-    "image": "/images/product6.png",
+    "image": "/images/product-6.png",
     "intro": "The last detail, and often the loveliest.",
     "description": [
       "A quiet, hand-finished piece with romantic florals and fine lines.",
