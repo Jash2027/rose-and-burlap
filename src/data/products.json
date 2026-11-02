@@ -1,22 +1,25 @@
 [
   {
     "name": "Rose&burlap Vintage Boho Floral Bread Box Double Layer(Wildflowers)",
-    "tagline": "Hand-finished in small batches.",
+    "tagline": "Floral Bread Box",
     "image": "/images/product1.png",
-    "intro": "A quiet piece, made to be lived with.",
+    "intro": "Floral; Botanical; Vintage Boho; Whimsical; Cottagecore;  Earth Tones; Decorative; Unique; Antique; Vintage",
     "description": [
-      "Each piece begins as a sketch and passes through our hands from first stitch to final finish. No two are exactly alike.",
-      "The patterns are drawn from romantic florals and fine lines — details meant to soothe rather than shout."
+      "「KEEPS BREAD FRESH」Designed to maintain optimal conditions for storing sourdough bread, keeping it crust crackly for 3 days.",
+      "「VINTAGE BOHO」The combination of olive green, mustard yellow, dusty pink, and brick red delivers a warm, nostalgic visual aesthetic, creating a relaxed and airy living ambiance.",
+      "「SPACIOUS INTERIOR」The upper layer offers 4.72'' of clearance and the bottom layer 6.50'', there's plenty of room to fit full-sized loaves, rolls, bagels, and all your favorite baked goods with ease.",
+      "「EASY TO MOVE」A thoughtfully designed bottom pull doubles as a handy grip, so the bread box slides and lifts easily across your countertop.",
+      "「EASY CARE」Made of 100% Bamboo, Humidity of 40–60% would help keep it dry. Clean by wiping with a soft damp (not soaking) cloth and do not immerse in water or place in a dishwasher."
     ],
-    "details": "Materials · Dimensions · Hand-finished edges",
-    "care": "Gentle care instructions go here. Replace with the real ones for this piece.",
-    "slug": "product-one"
+    "details": "Materials: 100% Bamboo· Dimensions: 8*13*16'' · Hand-finished edges",
+    "care": "Clean by wiping with a soft damp (not soaking) cloth and do not immerse in water or place in a dishwasher.",
+    "slug": "Floral-bread-box"
   },
   {
-    "name": "Product Two",
-    "tagline": "Romantic florals, fine lines.",
+    "name": "Rose&burlap Moody Florals Bread Box Double Layer Dark Glamour(Black Gold)",
+    "tagline": "Gold Bread Box",
     "image": "/images/product2.png",
-    "intro": "Delicate patterns, made slowly.",
+    "intro": "Moody Florals; Dark Glamour; Brushed Gold; Grandmillennial & Maximalist; Botanical; Whimsical; Unique; Antique; Vintage",
     "description": [
       "A small-batch piece with hand-drawn florals and a soft, worn-in finish.",
       "Designed to bring a touch of accessible romance to an everyday corner of your home."
