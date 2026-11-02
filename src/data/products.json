@@ -3,7 +3,7 @@
     "slug": "product-one",
     "name": "Product One",
     "tagline": "Hand-finished in small batches.",
-    "image": "/images/product1-1.png",
+    "image": "/images/product1.png",
     "intro": "A quiet piece, made to be lived with.",
     "description": [
       "Each piece begins as a sketch and passes through our hands from first stitch to final finish. No two are exactly alike.",
@@ -16,7 +16,7 @@
     "slug": "product-two",
     "name": "Product Two",
     "tagline": "Romantic florals, fine lines.",
-    "image": "/images/product1-2.png",
+    "image": "/images/product2.png",
     "intro": "Delicate patterns, made slowly.",
     "description": [
       "A small-batch piece with hand-drawn florals and a soft, worn-in finish.",
@@ -29,7 +29,7 @@
     "slug": "product-three",
     "name": "Product Three",
     "tagline": "A quiet detail for everyday.",
-    "image": "/images/product1-3.png",
+    "image": "/images/product3.png",
     "intro": "Understated, but never plain.",
     "description": [
       "Made in small batches, with an attention to the details you only notice up close.",
@@ -42,7 +42,7 @@
     "slug": "product-four",
     "name": "Product Four",
     "tagline": "Made to be lived with.",
-    "image": "/images/product1-4.png",
+    "image": "/images/product4.png",
     "intro": "Warmth, in a form you can hold.",
     "description": [
       "A hand-finished piece with a soft, tactile surface and a timeless silhouette.",
@@ -55,7 +55,7 @@
     "slug": "product-five",
     "name": "Product Five",
     "tagline": "Warmth, woven by hand.",
-    "image": "/images/product1-5.png",
+    "image": "/images/product5.png",
     "intro": "A small sanctuary, made by hand.",
     "description": [
       "Each one is finished slowly, with graceful details that reward a closer look.",
@@ -68,7 +68,7 @@
     "slug": "product-six",
     "name": "Product Six",
     "tagline": "Grace in the small things.",
-    "image": "/images/product1-6.png",
+    "image": "/images/product6.png",
     "intro": "The last detail, and often the loveliest.",
     "description": [
       "A quiet, hand-finished piece with romantic florals and fine lines.",
