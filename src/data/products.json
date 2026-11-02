@@ -1,7 +1,6 @@
 [
   {
-    "slug": "product-one",
-    "name": "Product One",
+    "name": "Rose&burlap Vintage Boho Floral Bread Box Double Layer(Wildflowers)",
     "tagline": "Hand-finished in small batches.",
     "image": "/images/product1.png",
     "intro": "A quiet piece, made to be lived with.",
@@ -10,10 +9,10 @@
       "The patterns are drawn from romantic florals and fine lines — details meant to soothe rather than shout."
     ],
     "details": "Materials · Dimensions · Hand-finished edges",
-    "care": "Gentle care instructions go here. Replace with the real ones for this piece."
+    "care": "Gentle care instructions go here. Replace with the real ones for this piece.",
+    "slug": "product-one"
   },
   {
-    "slug": "product-two",
     "name": "Product Two",
     "tagline": "Romantic florals, fine lines.",
     "image": "/images/product2.png",
@@ -23,10 +22,10 @@
       "Designed to bring a touch of accessible romance to an everyday corner of your home."
     ],
     "details": "Materials · Dimensions · Hand-finished edges",
-    "care": "Gentle care instructions go here. Replace with the real ones for this piece."
+    "care": "Gentle care instructions go here. Replace with the real ones for this piece.",
+    "slug": "product-two"
   },
   {
-    "slug": "product-three",
     "name": "Product Three",
     "tagline": "A quiet detail for everyday.",
     "image": "/images/product3.png",
@@ -36,10 +35,10 @@
       "The kind of piece that settles into a room and becomes part of its quiet rhythm."
     ],
     "details": "Materials · Dimensions · Hand-finished edges",
-    "care": "Gentle care instructions go here. Replace with the real ones for this piece."
+    "care": "Gentle care instructions go here. Replace with the real ones for this piece.",
+    "slug": "product-three"
   },
   {
-    "slug": "product-four",
     "name": "Product Four",
     "tagline": "Made to be lived with.",
     "image": "/images/product4.png",
@@ -49,10 +48,10 @@
       "Built to brighten your everyday without asking for attention."
     ],
     "details": "Materials · Dimensions · Hand-finished edges",
-    "care": "Gentle care instructions go here. Replace with the real ones for this piece."
+    "care": "Gentle care instructions go here. Replace with the real ones for this piece.",
+    "slug": "product-four"
   },
   {
-    "slug": "product-five",
     "name": "Product Five",
     "tagline": "Warmth, woven by hand.",
     "image": "/images/product5.png",
@@ -62,10 +61,10 @@
       "Meant to soothe weariness and bring a gentle order to the everyday."
     ],
     "details": "Materials · Dimensions · Hand-finished edges",
-    "care": "Gentle care instructions go here. Replace with the real ones for this piece."
+    "care": "Gentle care instructions go here. Replace with the real ones for this piece.",
+    "slug": "product-five"
   },
   {
-    "slug": "product-six",
     "name": "Product Six",
     "tagline": "Grace in the small things.",
     "image": "/images/product6.png",
@@ -75,6 +74,7 @@
       "Made in small batches, with the same care we give every piece in the collection."
     ],
     "details": "Materials · Dimensions · Hand-finished edges",
-    "care": "Gentle care instructions go here. Replace with the real ones for this piece."
+    "care": "Gentle care instructions go here. Replace with the real ones for this piece.",
+    "slug": "product-six"
   }
 ]
